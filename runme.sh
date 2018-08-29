@@ -30,3 +30,5 @@ sudo find /var/www/html -type d -exec chmod g+s {} +
 #(4) (Optional) Final security cleanup, if you don't want other users
 #to be able to see the data
 sudo chmod -R o-rwx /var/www/html/
+
+mkdir /var/www/html/angular
