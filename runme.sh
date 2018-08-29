@@ -4,7 +4,7 @@ sudo apt-get update;
 echo "upgrade apt-get"
 sudo apt-get upgrade;
 
-sudo apt-get install xmonad dmenu npm git irssi apache2 php vim chromium-browser sublime-text
+sudo apt-get install xmonad dmenu npm git irssi apache2 php vim chromium-browser sublime-text ctags tree
 
 # VIM configuration
 git clone https://github.com/mordini/vimfiles ~/vimfiles
