@@ -32,3 +32,4 @@ sudo find /var/www/html -type d -exec chmod g+s {} +
 sudo chmod -R o-rwx /var/www/html/
 
 mkdir /var/www/html/angular
+ln -s /var/www/html/angular ~/angular
