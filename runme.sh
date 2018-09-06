@@ -35,5 +35,5 @@ mkdir /var/www/html/angular
 ln -s /var/www/html/angular ~/angular
 
 # Add a shared folder for Virtualbox
-mkdir ~/Shared
+ln -s /media/sf_Mint ~/Shared
 sudo adduser $USER vboxsf
