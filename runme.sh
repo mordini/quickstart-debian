@@ -33,3 +33,7 @@ sudo chmod -R o-rwx /var/www/html/
 
 mkdir /var/www/html/angular
 ln -s /var/www/html/angular ~/angular
+
+# Add a shared folder for Virtualbox
+mkdir ~/Shared
+sudo adduser $USER vboxsf
